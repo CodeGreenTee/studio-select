@@ -1,0 +1,370 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+/* Global */
+
+
+.container {
+width: 80%;
+margin: auto;
+overflow: hidden;
+
+}
+
+
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+.button_1 {
+	height: 38px;
+	background: #e8491d;
+	border: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+
+}
+
+.dark {
+	padding: 15px;
+	background: #35424a;
+	color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+/* Header */
+
+header {
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+
+}
+
+
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 15px 0 15px;
+
+}
+
+
+header #branding {
+	float: left;
+
+}
+
+
+header #branding h1 {
+	margin: 0;
+
+}
+
+
+header nav {
+	float: right;
+	margin-top: 10px;
+
+}
+
+
+header .highlight, header .current a {
+	color: #e8491d;
+	font-weight: bold;
+
+}
+
+
+header a:hover {
+	color: #e8491d;
+	font-weight: bold;
+
+}
+
+
+/* Showcase */ 
+
+
+#showcase {
+	min-height: 400px;
+	background-image: url('./img/Cartoon Audio Cable.jpg');
+	text-align: center;
+	color: #ffffff;
+}
+
+
+#showcase h1 {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	
+	font-size: 55px;
+	color: #35424a;
+	text-shadow: #e8491d 2px 2px;
+
+}
+
+#showcase p {
+	font-size: 30px;
+	color: #e8491d;
+	top: 10px;
+	text-shadow: #35424a 2px 2px;
+}
+
+
+/*Newsletter*/
+
+#newsletter {
+	padding: 10px;
+	color: #ffffff;
+	background: #35424a;
+}
+
+#newsletter h1 {
+	text-align: center;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+
+}
+
+#newsletter form {
+	float: right;
+	margin: 10px;
+
+}
+
+
+#newsletter input [type="email"] {
+	padding: 4px;
+	height: 25px;
+	width:250px;
+
+}
+
+
+/* Boxes */
+
+#boxes {
+	margin-top: 20px;
+
+}
+
+#boxes .box {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+
+}
+
+#boxes .box img {
+	width: 90px;
+
+}
+
+
+/* Studios */
+
+#studios_1{
+	min-height: 700px;
+	min-width: 750px;
+	background-image: url(./img/Dr.Dartez.jpg);
+	text-align: center;
+	color: #e8491d;
+
+}
+
+#studios_2{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/barronstudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_3{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/360studio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_4{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/redshack.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_5{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/inthejar.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_6{
+	min-height: 700px;
+	min-width: 750px;
+	background-image: url(./img/luckyrunstudio.jpg);
+	text-align: center;
+	text-shadow: 1px 1px #e8491d;
+	color: #fff;
+
+}
+
+#studios_7{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/sunrisestudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_8{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/anarchystudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_9{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/seventhestudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_10{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/thespherestudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+
+#studios_11{
+	min-height: 600px;
+	min-width: 750px;
+	background-image: url(./img/soundartsstudio.jpg);
+	text-align: center;
+	color: #e8491d;
+}
+/* Sidebar*/
+
+aside, #sidebar, h3 p {
+	float: right;
+	width: 300px;
+	margin-top: 30px;
+
+}
+
+/* NOT WORKING */
+
+aside #sidebar .quote input, aside #sidebar .quote textarea {
+	width: 90%;
+	padding: 5px;
+
+}
+
+/* Main-Col */
+
+article, #main-col, h1 p {
+	float: left;
+	width: 60%;
+
+}
+
+/* Services */ 
+
+/* Why isn't any of this working?? */
+
+ul #services li {
+	list-style: none;
+	padding: 20px;
+	border: #cccccc solid 1px;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+
+}
+
+/*Footer*/
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center; 
+
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box,
+	#studios_1, #studios_2, #studios_3, #studios_4, #studios_5
+	article #main-col,
+	aside #sidebar {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	header {
+		padding-bottom: 20px;
+
+	}
+
+	#showcase h1 {
+		margin-top: 40px;
+
+	}
+
+	#newsletter button, .quote button {
+		display: block;
+		width: 100%;
+
+	}
+
+	#newsletter form input [type="email"] .quote input, .quote textarea{
+		width: 100%;
+		margin: 5px;
+
+	}
+}
